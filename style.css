@@ -1,0 +1,44 @@
+:root{
+    --text-color: #1d1d1d;
+    --button-color:#596D48;
+    --border-color:#E5E7EB;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--text-color) ;
+}
+
+
+
+.bg-side{
+    position: relative;
+    width: 40%;
+}
+.bg-img{
+    width: 100%;
+    height: inherit;
+}
+.on-logo{
+    position: absolute;
+    width: 100%;
+}
+.logo{
+}
+
+
+
+.form-side{
+    
+}
+.form-title, .form-submit{
+    background-color: #e8e8e8;
+}
+.form-title p{
+    margin: 0;
+}
