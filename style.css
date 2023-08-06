@@ -1,44 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root{
     --text-color: #1d1d1d;
-    --button-color:#596D48;
+    --text-color-light:#f1f1f1;
+    --button-color:#619dc8;
     --border-color:#E5E7EB;
+    --button-font-size:24px;
 }
 body{
     display: flex;
     flex-direction: row;
-    font-size: 24px;
+    font-size: 28px;
     color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
 }
 a{
     text-decoration: none;
-    color: var(--text-color) ;
+    color: var(--button-color);
+    font-weight: bold;
 }
 
 
 
+/* BACKGROUND SIDE */
 .bg-side{
     position: relative;
-    width: 40%;
+    width: 80vw;
 }
 .bg-img{
     width: 100%;
-    height: inherit;
+    height: 100vh;
 }
-.on-logo{
+.on-bg{
     position: absolute;
     width: 100%;
+    top:20vh;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-between;
 }
 .logo{
+    background: rgb(255 255 255 / 60%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5vh;
+    text-align: center;
+}
+.credit{
+    margin-bottom: 8px;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-color-light);
 }
 
 
-
-.form-side{
-    
+/* FORM SIDE */
+.sign-up_form{
+    background-color: #f3f3f3;
+    height: 100vh;
 }
 .form-title, .form-submit{
-    background-color: #e8e8e8;
+    background-color: #f3f3f3;
+}
+
+
+/* FORM TITLE */
+.form-title{
+    padding:128px 180px 64px 64px;
 }
 .form-title p{
-    margin: 0;
+    margin: 0px 0px 64px;
+}
+
+
+/* INPUT FIELD */
+.form-input{
+    background-color: #FFF;
+    padding:48px 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-input_title{
+    width: 100%;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+div.input{
+    display: flex;
+    flex-direction: column; 
+    width: 35%;
+    margin:24px 128px 0px 0px;
+}
+div.input label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* SUBMIT FIELD */
+.form-submit{
+    padding:64px;
+    display: flex;
+    flex-direction: column;
+}
+.submit-btn{
+    width: 300px;
+    background-color: var(--button-color);
+    font-size: var(--button-font-size);
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+.log-in{
+    margin-top: 24px;
+    font-size: 20px;
 }
