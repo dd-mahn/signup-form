@@ -98,6 +98,9 @@ a:hover{
     font-size:34px;
     margin: 0px 0px 64px;
 }
+.form-title p > strong{
+    color: #fba944;
+}
 .form-title span{
     font-size: 28px;
 }
