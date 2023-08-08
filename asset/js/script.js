@@ -6,11 +6,6 @@ const email = document.querySelector('#email')
 const phone = document.querySelector('#phone')
 const inputS = document.querySelectorAll('input')
 const messageS = document.querySelectorAll('input+span')
+const exp = document.querySelectorAll('input[pattern]')
 
-cf_pwd.addEventListener('keyup', () => {
-if(cf_pwd.value === pwd.value){
-    console.log('match')
-}else{
-    console.log('not match')
-} 
-})
+
