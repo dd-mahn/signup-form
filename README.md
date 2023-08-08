@@ -1,1 +1,1 @@
-# Odin project's sign-up form
+# Odin project's sign-up form - Form Structure / Form Validation / Form Styling 
